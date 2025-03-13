@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    srand(time(NULL));
+
+    int numbers[10];
+    int count = 0;
+    printf("Generated 10 random numbers:\n");
+    int i;
+    for (i = 0; i < 10; i++) {
+        numbers[i] = rand() % 100 + 1; 
+        printf("%d ", numbers[i]);
+        
+    }
+    printf("\n");
+
+    int target;
+    printf("Enter the number you want to search for: ");
+    scanf("%d", &target);
+
+    int found = 0;
+    for (i = 0; i < 10; i++) {
+    	count = count + 1;
+        if (numbers[i] == target) {
+            printf("Number %d found at index %d.\n", target, i);
+            found = 1;  
+            printf("count = %d\n", count);
+            break;
+        }
+    }
+    
+    if (found == 0) {
+        printf("Number %d not found in the array.\n", target);
+    }
+    return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT:-
+
+Generated 10 random numbers:
+89 92 22 67 97 79 53 28 30 79 
+Enter the number you want to search for: 53
+Number 53 found at index 6.
+count = 7
