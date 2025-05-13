@@ -64,3 +64,15 @@ int main() {
     primMST(graph);
     return 0;
 }
+
+OUTPUT:
+
+Edge 	Weight
+0 - 1 	2
+4 - 2 	1
+2 - 3 	6
+5 - 4 	0
+1 - 5 	3
+
+
+=== Code Execution Successful ===
