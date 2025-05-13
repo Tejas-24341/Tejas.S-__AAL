@@ -58,3 +58,11 @@ int main() {
 
 OUTPUT:
 
+
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
+
+
+=== Code Execution Successful ===
