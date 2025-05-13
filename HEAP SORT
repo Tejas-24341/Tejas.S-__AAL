@@ -64,3 +64,13 @@ int main() {
 
     return 0;
 }
+
+OUTPUT:
+
+Unsorted array: 
+10 20 15 30 40 
+Sorted array: 
+10 15 20 30 40 
+
+
+=== Code Execution Successful ===
