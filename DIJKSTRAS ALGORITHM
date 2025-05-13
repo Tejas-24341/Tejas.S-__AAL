@@ -78,3 +78,16 @@ int main() {
     
     return 0;
 }
+
+OUTPUT:
+
+Vertex 		 Distance from Source
+0 		 0
+1 		 7
+2 		 9
+3 		 20
+4 		 23
+5 		 14
+
+
+=== Code Execution Successful ===
